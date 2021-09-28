@@ -5,18 +5,18 @@
 $gray: #f4f4f4;
 
 body {
-	background: $gray; // Using this variable
+  background: $gray; // Using this variable
 }
 .banner {
-	background: white;
-	h1 {
-		font-size: 50px;
-	}
+  background: white;
+  h1 {
+    font-size: 50px;
+  }
 }
 
 a {
-	color: grey;
-	&:hover {
-		color: black;
-	}
+  color: grey;
+  &:hover {
+    color: black;
+  }
 }

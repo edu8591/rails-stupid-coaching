@@ -1,6 +1,5 @@
 class QuestionsController < ApplicationController
-  def ask
-  end
+  def ask; end
 
   def answer
     @reply = ""
@@ -11,6 +10,5 @@ class QuestionsController < ApplicationController
     else
       @reply = "I don't care, get dressed and go to work!"
     end
-
   end
 end
